@@ -1,7 +1,7 @@
 function Footer() {
     return(
         <footer>
-            <p>&copy; Website</p>
+            <p>&copy; {new Date().getUTCFullYear()} Website</p>
         </footer>
     );
 }
