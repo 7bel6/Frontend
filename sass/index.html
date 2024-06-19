@@ -19,6 +19,19 @@
                 color: $text-color;
             }
         }
+        @mixin border-radius($radius){
+            -webkit-border-radius: $radius;
+            -moz-border-radius: $raduis;
+            -ms-border-radius: $radius;
+            border-radius: $radius;
+        }
+
+        #awesome {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            @include border-radius(15px);
+        }
       </style>
       
       <h1 class="header">Learn Sass</h1>
