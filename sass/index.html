@@ -54,6 +54,11 @@
             background-color: red;
             @include border-stroke(medium);
         }
+        @for $j from 1 through 6{
+            .text-#{$j}{
+                font-size: 15px*$j
+            }
+        }
       </style>
       
       <h1 class="header">Learn Sass</h1>
