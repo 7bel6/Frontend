@@ -59,6 +59,14 @@
                 font-size: 15px*$j
             }
         }
+        @each $color in blue, black, red{
+            .#{$color}-bg {background-color: $color}
+        }
+
+        div {
+            height: 200px;
+            width: 200px;
+        }
       </style>
       
       <h1 class="header">Learn Sass</h1>
