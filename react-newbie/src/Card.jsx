@@ -1,7 +1,8 @@
+import profilePic from './assets/react.svg'
 function Card(){
     return(
         <div className="card">
-            <img src="https://via.placeholder.com/150" alt="profile" />
+            <img src={profilePic} alt="profile" />
             <h2>Haider</h2>
             <p>Pro Trader</p>
         </div>
